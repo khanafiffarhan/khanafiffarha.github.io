@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import SocialLinks from '../components/SocialLinks'
+import image from '../../asset/img/farhan.svg'
 const Landing = ({reff}:any) => {
   return (
     // border-[2px] border-black
@@ -45,7 +46,7 @@ const Landing = ({reff}:any) => {
                       alt=""
                     /> */}
                       {/* <Image src="/asset/img/profile.png" alt="My photo" className='rounded-[50%] h-[130px] w-[130px]' width={130} height={130} />  */}
-                      <Image src="/asset/img/farhan.svg" alt="helo" width={150} height={150} />
+                      <Image src={image} alt="helo" width={150} height={150} />
                       
                       
                   </div>
