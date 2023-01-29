@@ -6,7 +6,7 @@ export interface Service {
     title:string,
     description:string,
     icon: {
-        link:string,
+        link:Object,
         width:string
     }[],
 }

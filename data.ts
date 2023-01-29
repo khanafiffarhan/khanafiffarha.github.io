@@ -4,6 +4,17 @@ import { IProject ,Iskill,Service } from "./type";
 // import { AiOutlineApi ,AiOutlineAntDesign } from "react-icons/ai";
 // import { MdDeveloperMode } from "react-icons/md";
 // import {BsCircleFill} from "react-icons/bs"
+
+import javascript from './asset/img/javascript.png'
+import typescript from './asset/img/typescript.png'
+import react from './asset/img/react.png'
+import next from './asset/img/next.svg'
+import redux from './asset/img/redux.png'
+import node from './asset/img/node.png'
+import express from './asset/img/express.png'
+import graphql from './asset/img/graphql.svg'
+import mongo from './asset/img/mongo.svg'
+import { NextServer } from "next/dist/server/next";
 export const services:Service[] = [
   {
     
@@ -11,25 +22,26 @@ export const services:Service[] = [
     title: "Frontend",
     description:'I can build dynamic, flexible, user-friendly, SEO-friendly and scalible frontend. Also I build custom functions as per demand. For fronted developement my experties in Next Js framework with Typescript. For state management, I prefered Redux. ',
     icon: [{
-      link:"asset/img/javascript.png",
+      link:javascript,
       width: "50px"
     },
     {
-      link:"asset/img/typescript.png",
+      link:typescript,
       width: "50px"
     },
     {
-      link:"asset/img/react.png",
+      link:react,
       width: "50px"
     },
     {
-      link:"asset/img/next.svg",
+      link:next,
       width: "50px"
     },
     {
-      link:"asset/img/redux.png",
+      link:redux,
       width: "50px"
-    }],
+    }
+  ],
 
 
   },
@@ -38,19 +50,19 @@ export const services:Service[] = [
     title: "Backend",
     description:'I can build powerfull backend. For builing backend I prefered node js package Express Js. For Database management I preferred MongoDB',
     icon: [{
-      link:"asset/img/node.png",
+      link:node,
       width: "50px"
     },
     {
-      link:"asset/img/express.png",
+      link:express,
       width: "50px"
     },
     {
-      link:"asset/img/graphql.svg",
+      link:graphql,
       width: "50px"
     },
     {
-      link:"asset/img/mongo.svg",
+      link:mongo,
       width: "50px"
     }],
   },
@@ -59,17 +71,18 @@ export const services:Service[] = [
     title: "Phone App",
     description:'I can build user-friendly cross platform supported phone-apps.',
     icon: [{
-      link:"asset/img/node.png",
+      link:node,
       width: "50px"
     },
     {
-      link:"asset/img/express.png",
+      link:express,
       width: "50px"
     },
     {
-      link:"asset/img/mongo.svg",
+      link:mongo,
       width: "50px"
-    }],}
+    }],
+}
 
 ]
 
