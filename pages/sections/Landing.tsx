@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import SocialLinks from '../components/SocialLinks'
-import image from '../../asset/img/farhan.svg'
+import image from '../../asset/img/Farhan.svg'
 const Landing = ({reff}:any) => {
   return (
     // border-[2px] border-black
