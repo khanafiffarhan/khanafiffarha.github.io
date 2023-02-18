@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { SocialIcon } from "../../type";
+import { SocialIcon } from "../type";
 // import { useSelector, useDispatch } from "react-redux";
 // import { fetch_home_datas } from "../redux/actions/Actions";
 
