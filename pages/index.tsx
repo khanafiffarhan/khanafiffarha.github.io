@@ -8,6 +8,7 @@ import {far} from "@fortawesome/free-regular-svg-icons"
 import styles from '../styles/Home.module.css'
 import {ThemeProvider} from 'next-themes'
 import Landing from '../sections/Landing'
+import Aboutme from '../sections/Aboutme'
 library.add(fas,fab)
 
 // library.add(fab)
@@ -25,6 +26,7 @@ export default function Home() {
       <main className='md:mx-[118px] sm:mx-[50px] mx-[20px] mt-[90px] border-cyan-300 shadow-[#e8e8e8_0px_2px_2px_0px] dark:bg-red-600 '
       >
         <Landing />
+        <Aboutme />
         
         
 
