@@ -1,5 +1,5 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { SocialIcon } from "../type";
+import { SocialIcon } from "../../type";
 // import { useSelector, useDispatch } from "react-redux";
 // import { fetch_home_datas } from "../redux/actions/Actions";
 
@@ -17,7 +17,7 @@ const SocialLinks = () => {
     const socialLink_data:SocialIcon[]= [
       {
         iconName: 'github',
-        s_link: 'helloloo'
+        s_link: 'https://github.com/khanafiffarhan'
       },
       {
         iconName: 'linkedin',

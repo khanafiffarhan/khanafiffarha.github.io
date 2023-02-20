@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import SocialLinks from '../components/SocialLinks'
-import image from '../asset/img/Farhan.svg'
+import image from '../asset/img/Farhan.png'
 const Landing = ({reff}:any) => {
   return (
     // border-[2px] border-black
@@ -17,7 +17,7 @@ const Landing = ({reff}:any) => {
       
 
       <div className=" md:col-end-[span_7] col-[1_/_span_12] md:col-[0_/_span_12]  left_col">
-        <h1 className='text-[3rem] md:text-[4rem] font-[geomatrix]'>Hi, <br/>  Farhan.</h1>
+        <h1 className='text-[3rem] md:text-[4rem] font-[geomatrix]'>Hi, I'm <br/>  Farhan.</h1>
         <div className="botton_text font-[codepro] text-[0.8rem] md:w-[70%] mt-[12px] ">
         <p> a full-stack web developer, who loves to build user-friendly websites, web app and mobile apps. My preferred tools are Javascript (typescript), React Native and Next.js. </p>
       </div>
